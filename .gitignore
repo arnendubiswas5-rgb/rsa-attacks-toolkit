@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/_create.py
+
+# Dataset — regenerate with: python scripts/generate_shared_prime_keys.py
+data/sample_keys/
+
+# OS
+.DS_Store
+Thumbs.db
